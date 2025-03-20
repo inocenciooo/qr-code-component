@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --white: #FFF;
+    --Slate-300: hsl(212, 45%, 89%);
+    --Slate-500: hsl(216, 15%, 48%);
+    --Slate-900: hsl(218, 44%, 22%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: var(--Slate-300);
+}
+
+.qr-code-informations{
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+    border-radius: 1.2rem;
+}
+
+.hero{
+    background-color: var(--white);
+    border-radius: 1.5rem;
+    height: 52rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+.hero .informations{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    text-align: center;
+}
+.informations h1{
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: var(--Slate-900);
+}
+.informations p{
+    font-size: 1.8rem;
+    color: var(--Slate-500);
+}
+
+.attribution{
+    font-size: 1.5rem; text-align: center;
+    align-self: center;
+    height: 3vh;
+}
+.attribution a{
+    color: #F8A61C;
+    font-size: 1.5rem;
+}
