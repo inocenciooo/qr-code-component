@@ -27,7 +27,7 @@ A landing page foi criada para fins educacionais e serve como ponto de partida p
 
 <img src="./resultado-responsivo-exemplos/Pixel-7-Pro-383x827.png" height="500px" style="display: block; margin: auto;">
 <br>
-<p><a href="#" target="_blank">Acesse aqui</a> para visualizar o projeto no <strong>GitHub Pages</strong> com mais detalhes!</p>
+<p><a href="https://inocenciooo.github.io/qr-code-component/" target="_blank">Acesse aqui</a> para visualizar o projeto no <strong>GitHub Pages</strong> com mais detalhes!</p>
 
 ## Contribuições e Sugestões
 
